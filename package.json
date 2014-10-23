@@ -1,0 +1,20 @@
+{
+  "name": "unit_tests",
+  "version": "0.0.1",
+  "description": "learning to use unit tests",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.2",
+    "mocha": "^2.0.1",
+    "should": "^4.1.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "istanbul": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/"
+  },
+  "author": "imposibrus <imposibrus@gmail.com>",
+  "license": "MIT"
+}

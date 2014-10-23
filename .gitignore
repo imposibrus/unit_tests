@@ -1,0 +1,6 @@
+# Created by .gitignore support plugin (hsz.mobi)
+
+coverage
+node_modules
+.idea
+
